@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NYT(1)", ".", "{775FD885-3E30-4C1C-95F3-FC7480F08B71}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58547"
+		Debug.AspNetCompiler.PhysicalPath = "..\NYTWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58547\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58547"
+		Release.AspNetCompiler.PhysicalPath = "..\NYTWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58547\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58547"
+		SlnRelativePath = "..\NYTWebsite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYTDataAccess", "..\NYTDataAccess\NYTDataAccess.csproj", "{16C3333F-374B-4364-AA98-D32432ABD7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYTServices", "..\NYTServices\NYTServices.csproj", "{49499E48-4407-408D-9865-126294CC9E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775FD885-3E30-4C1C-95F3-FC7480F08B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775FD885-3E30-4C1C-95F3-FC7480F08B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775FD885-3E30-4C1C-95F3-FC7480F08B71}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{775FD885-3E30-4C1C-95F3-FC7480F08B71}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{16C3333F-374B-4364-AA98-D32432ABD7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C3333F-374B-4364-AA98-D32432ABD7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C3333F-374B-4364-AA98-D32432ABD7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C3333F-374B-4364-AA98-D32432ABD7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49499E48-4407-408D-9865-126294CC9E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49499E48-4407-408D-9865-126294CC9E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49499E48-4407-408D-9865-126294CC9E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49499E48-4407-408D-9865-126294CC9E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

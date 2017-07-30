@@ -1,0 +1,9 @@
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\NYTDataAccess.dll.config
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\NYTDataAccess.dll
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\NYTDataAccess.pdb
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\obj\Debug\NYTDataAccess.dll
+C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\obj\Debug\NYTDataAccess.pdb
