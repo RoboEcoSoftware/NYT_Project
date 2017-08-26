@@ -7,3 +7,11 @@ C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFr
 C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\obj\Debug\NYTDataAccess.dll
 C:\Users\ROBOJORJ\Documents\RoboEcoSoftware\NYT\NYTDataAccess\obj\Debug\NYTDataAccess.pdb
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\bin\Debug\NYTDataAccess.dll.config
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\bin\Debug\NYTDataAccess.dll
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\bin\Debug\NYTDataAccess.pdb
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\obj\Debug\NYTDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\obj\Debug\NYTDataAccess.dll
+C:\Users\ROBO\Documents\GitHub\NYT_Project\NYTDataAccess\obj\Debug\NYTDataAccess.pdb

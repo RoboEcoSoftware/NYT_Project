@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NYT(1)", ".", "{775FD885-3E30-4C1C-95F3-FC7480F08B71}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYTDataAccess", "..\NYTData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYTServices", "..\NYTServices\NYTServices.csproj", "{49499E48-4407-408D-9865-126294CC9E9A}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NYTNodeJsAPI", "..\NYTNodeJsAPI\NYTNodeJsAPI.njsproj", "{BD5F59EC-ED49-4FC7-9A29-F34D72DD1334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{49499E48-4407-408D-9865-126294CC9E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49499E48-4407-408D-9865-126294CC9E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49499E48-4407-408D-9865-126294CC9E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5F59EC-ED49-4FC7-9A29-F34D72DD1334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5F59EC-ED49-4FC7-9A29-F34D72DD1334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5F59EC-ED49-4FC7-9A29-F34D72DD1334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5F59EC-ED49-4FC7-9A29-F34D72DD1334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
