@@ -42,7 +42,8 @@ app.post('/products',data.addProduct);
 app.delete('/products/:id',data.deleteProduct);
 app.put('/products/:id', data.updateProduct);
 app.get('/queryAll', data.queryAll);
-
+app.get('/queryById/:id', data.queryById);
+app.post('/insertStudent', data.insertStudent);
 
 
 http.createServer(app).listen(app.get('port'), function(){

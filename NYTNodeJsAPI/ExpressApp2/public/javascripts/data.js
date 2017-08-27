@@ -272,19 +272,21 @@ exports.addProduct = function (req, res) {
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-        function insert(callback) {
+
+exports.insertStudent = function (req, res) {
             //when insert 
-            var con = new msSqlConnecter.msSqlConnecter(config);
+    var con = new msSqlConnecter.msSqlConnecter(config);
+    var data = req.body;
             con.connect().then(function () {
-                new con.Request("insert into student values(@name,@age)")
-                    .addParam("name", TYPES.VarChar, "Eric")
-                    .addParam("age", TYPES.Int, 20)
+                new con.Request("insert into student values(@id,@name,@age)")
+                    .addParam("id", TYPES.Int, data.Id)
+                    .addParam("name", TYPES.VarChar, data.Name)
+                    .addParam("age", TYPES.Int, data.Age)
                     .onComplate(function (count) {
-                        if (callback)
-                            callback(count);
+                        res.send("Inserted 1 record");
                     })
                     .onError(function (err) {
-                        console.log(err);
+                        res.send("Inserted Error!!");
                     })
                     .Run();
             }).catch(function (ex) {
@@ -326,6 +328,42 @@ exports.queryAll = function (req, res)
     //});  
         }
 
+
+
+exports.queryById = function (req, res) {
+    var con = new msSqlConnecter.msSqlConnecter(config);
+    con.connect().then(function () {
+        new con.Request("select * from student where ID = @id ")
+            .addParam("id", TYPES.Int, req.params.id)
+
+            .onComplate(function (count, datas) {
+
+                //res.send("Connected");
+                res.send(datas);
+            })
+            .onError(function (err) {
+
+                res.send("not Connected");
+            }).Run();
+    }).catch(function (ex) {
+        res.send(ex);
+    });
+    // res.send(datas);
+
+    //var Connection = require('tedious').Connection;
+    //    var config = {
+    //    userName: 'proxyNYT',
+    //    password: 'fsefsfsfe',
+    //    server: 'localhost',
+    //    // If you are on Microsoft Azure, you need this:  
+    //    options: { encrypt: true, database: 'NYTdb' }
+    //};
+    //var connection = new Connection(config);
+    //connection.on('connect', function (err) {
+    //    // If no error, then good to proceed.  
+    //    res.send("Connected");
+    //});  
+}
         function updateData(callback) {
             var con = new msSqlConnecter.msSqlConnecter(config);
             con.connect().then(function () {
