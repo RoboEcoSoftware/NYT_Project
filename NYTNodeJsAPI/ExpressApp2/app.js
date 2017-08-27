@@ -40,7 +40,8 @@ app.get('/users', user.list);
 app.get('/products',data.getProducts);
 app.post('/products',data.addProduct);
 app.delete('/products/:id',data.deleteProduct);
-app.put('/products/:id',data.updateProduct);
+app.put('/products/:id', data.updateProduct);
+app.get('/queryAll', data.queryAll);
 
 
 

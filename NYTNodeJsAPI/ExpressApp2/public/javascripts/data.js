@@ -2,11 +2,11 @@
 var msSqlConnecter = require("./msSqlConnecter"); 
 
 var config = {
-    userName: "{your database user name}",
-    password: "{your database password}",
-    server: "{you database server address}",
+    userName:"proxyNYT",
+    password: "123456",
+    server: "localhost",
     options: {
-        database: "{you database name}",
+        database: "NYTdb",
         encrypt: true,
     }
 }; 
@@ -292,20 +292,38 @@ exports.addProduct = function (req, res) {
             });
         }
 
-        function queryAll(callback) {
+exports.queryAll = function (req, res)
+        {
             var con = new msSqlConnecter.msSqlConnecter(config);
             con.connect().then(function () {
                 new con.Request("select * from student")
                     .onComplate(function (count, datas) {
-                        if (callback)
-                            callback(datas);
+           
+                        //res.send("Connected");
+                        res.send(datas);
                     })
                     .onError(function (err) {
-                        console.log(err);
+                        
+                        res.send("not Connected");
                     }).Run();
             }).catch(function (ex) {
-                console.log(ex);
-            });
+                res.send(ex);
+                });
+           // res.send(datas);
+
+    //var Connection = require('tedious').Connection;
+    //    var config = {
+    //    userName: 'proxyNYT',
+    //    password: 'fsefsfsfe',
+    //    server: 'localhost',
+    //    // If you are on Microsoft Azure, you need this:  
+    //    options: { encrypt: true, database: 'NYTdb' }
+    //};
+    //var connection = new Connection(config);
+    //connection.on('connect', function (err) {
+    //    // If no error, then good to proceed.  
+    //    res.send("Connected");
+    //});  
         }
 
         function updateData(callback) {
