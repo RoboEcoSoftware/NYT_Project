@@ -24,7 +24,7 @@
                     <div class="span12">
                         <h4>Small Buttons</h4>
                         <p>
-                            <button class="btn btn-mini">Button</button>
+                            <button class="btn btn-mini"  onclick="" >Button</button>
                             <button class="btn btn-primary btn-mini">Button</button>
                             <button class="btn btn-info btn-mini">Button</button>
                             <button class="btn btn-success btn-mini">Button</button>
